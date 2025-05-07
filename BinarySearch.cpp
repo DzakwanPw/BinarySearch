@@ -51,6 +51,18 @@ void bubbleSortArray()
     } while (pass <= nPanjang - 1);    
 }
 
+void display()
+{
+    cout << "\n=============================================\n";
+    cout << "     Elemen Array Setelah Diluruskan (Asc)   \n";
+    cout << "============================================\n";
+    for (int j = 0; j < nPanjang; j++)
+    {
+
+    }
+}
+
+
 void binarySearch()
 {
     char ulang;
