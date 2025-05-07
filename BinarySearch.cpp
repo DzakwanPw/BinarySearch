@@ -9,7 +9,7 @@ int x;
 
 void input()
 {
-    whilte(true)
+    while(true)
     {
         cout << "Masukkan banyaknya element pada array (maksimal 10): ";
         cin >> nPanjang;
@@ -23,7 +23,10 @@ void input()
         }
     }
 
-    
+    cout << "\n ====================================\n";
+    cout << "            Masukkan Element Array    \n";
+    cout << "====================================\n";
+    for (int i = 0; i < nPanjang; i++)
 }
     
     
